@@ -30,7 +30,11 @@ class Account {
 public class AccountTest {
 
 	public static void main(String[] args) {
+		//System.out.println(Account.baseAcc_num);
+		
 		Account Ac1 = new Account();
+		//System.out.println(Account.baseAcc_num);
+		//System.out.println(Ac1.baseAcc_num);
 		Ac1.deposit(5000);
 		System.out.println(Ac1.toString());
 		Ac1.withdraw(2000);
@@ -40,6 +44,7 @@ public class AccountTest {
 		System.out.println();
 		
 		Account Ac2 = new Account();
+		//System.out.println(Account.baseAcc_num);
 		//Ac2.Acc_num = "102";
 		System.out.println(Ac2.toString());
 	}
